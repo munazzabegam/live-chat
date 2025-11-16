@@ -1,0 +1,19 @@
+/* Custom scrollbar for chat box */
+#chat-box::-webkit-scrollbar {
+    width: 8px;
+}
+#chat-box::-webkit-scrollbar-thumb {
+    background-color: #9ca3af; /* Gray-400 */
+    border-radius: 4px;
+}
+#chat-box::-webkit-scrollbar-track {
+    background-color: #f3f4f6; /* Gray-100 */
+}
+.message-bubble {
+    max-width: 80%;
+    padding: 8px 12px;
+    border-radius: 1.25rem; /* rounded-xl */
+    margin-bottom: 8px;
+    display: inline-block;
+    word-wrap: break-word;
+}
