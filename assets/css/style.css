@@ -10,7 +10,7 @@
     background-color: #f3f4f6; /* Gray-100 */
 }
 .message-bubble {
-    max-width: 80%;
+    max-width: 80vw;
     padding: 8px 12px;
     border-radius: 1.25rem; /* rounded-xl */
     margin-bottom: 8px;
